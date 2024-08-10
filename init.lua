@@ -429,18 +429,18 @@ minetest.register_node("scaffolding:reinforced_scaffolding", {
 minetest.register_craft({
 	output = 'scaffolding:scaffolding 12',
 	recipe = {
-		{'default:wood', 'default:wood', 'default:wood'},
+		{'group:wood', 'group:wood', 'group:wood'},
 		{'default:stick', '', 'default:stick'},
-		{'default:wood', 'default:wood', 'default:wood'},
+		{'group:wood', 'group:wood', 'group:wood'},
 	}
 })
 
 minetest.register_craft({
 	output = 'scaffolding:scaffolding 4',
 	recipe = {
-		{'default:wood'},
+		{'group:wood'},
 		{'default:stick'},
-		{'default:wood'},
+		{'group:wood'},
 	}
 })
 
